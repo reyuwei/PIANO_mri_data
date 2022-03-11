@@ -18,7 +18,6 @@ For comments or questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.c
 3. 3D joint annotation (in physical space) [[Google Drive]](https://drive.google.com/file/d/1imikru7d64WdoR5Mt5vuU7mMqFQ0tVr_/view?usp=sharing)
 
 
-
 ## Processing code
 1. Generate fine-grained semantic mask. [Coming Soon..]
 2. Generate mesh from volume mask.  [Coming Soon..]
@@ -26,6 +25,9 @@ For comments or questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.c
 ## Joint ID
 ![](piano_joint_id.png)
 
+---
+## Extension
+1. Muscle mask volume [See [NIMBLE](https://liyuwei.cc/proj/nimble)]
 ---
 
 If you find this data useful for your research, consider citing:
