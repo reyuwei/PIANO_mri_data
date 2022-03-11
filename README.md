@@ -1,4 +1,4 @@
-PIANO Dataset
+PIANO MRI Dataset
 ========
 
 The is the dataset proposed in PIANO: A Parametric Hand Bone Model from Magnetic Resonance Imaging 
