@@ -20,9 +20,33 @@ For comments or questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.c
 ## Annotation Extension
 1. **Muscle mask volume [See [NIMBLE](https://liyuwei.cc/proj/nimble)]**
 
-## Processing code
-1. Generate fine-grained semantic mask. [Coming Soon..]
-2. Generate mesh from volume mask.  [Coming Soon..]
+## Useful code - [mask2mesh.py](code/mask2mesh.py)
+- Generate mesh from volume mask
+```py
+mri_mask = "00001_bonemuscle.nii"
+mri_mask_vol = sitk.ReadImage(mri_mask)
+bone_mesh = generate_seg_mesh(mri_mask_vol, 1)
+muscle_mesh = generate_seg_mesh(mri_mask_vol, 2)
+
+bone_mesh.export("bone.obj")
+muscle_mesh.export("muscle.obj")
+```
+- Naive fine-grained bone mask
+```py
+joints_file = "00001_joints.txt"
+joints3d = np.loadtxt(joints_file)
+semantic_bonemesh = finegrained_bone(joints3d, bone_mesh)
+semantic_bonemesh.export("sbone.obj")
+```
+- Automatic surface segmentation
+```py
+mri_raw = "00001.nii"
+surf_mask_vol = naive_seg(sitk.ReadImage(mri_raw))
+surf_mesh = generate_seg_mesh(surf_mask_vol)
+surf_mesh.export("surf.obj")
+```
+   
+  
 
 ---
 ## Joint ID
