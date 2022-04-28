@@ -1,4 +1,4 @@
-PIANO MRI Dataset
+HAND MRI Dataset (PIANO)
 ========
 
 The is the dataset proposed in PIANO: A Parametric Hand Bone Model from Magnetic Resonance Imaging 
@@ -18,7 +18,8 @@ For comments or questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.c
 3. 3D joint annotation (in physical space) [[Google Drive]](https://drive.google.com/file/d/1imikru7d64WdoR5Mt5vuU7mMqFQ0tVr_/view?usp=sharing)
 
 ## Annotation Extension
-1. **Muscle mask volume [See [NIMBLE](https://liyuwei.cc/proj/nimble)]**
+1. **Muscle mask volume (From [NIMBLE](https://liyuwei.cc/proj/nimble))**  [[Google Drive]](https://drive.google.com/file/d/1TuU8Co85_ctvj6yjotms-PTKredzl0QF/view?usp=sharing)
+
 
 ## Useful code - [mask2mesh.py](code/mask2mesh.py)
 - Generate mesh from volume mask
@@ -62,7 +63,6 @@ If you find this data useful for your research, consider citing:
   author    = {Li, Yuwei and Wu, Minye and Zhang, Yuyao and Xu, Lan and Yu, Jingyi},
   booktitle = {Proceedings of the Thirtieth International Joint Conference on
                Artificial Intelligence, {IJCAI-21}},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
   editor    = {Zhi-Hua Zhou},
   pages     = {816--822},
   year      = {2021},
@@ -70,6 +70,17 @@ If you find this data useful for your research, consider citing:
   note      = {Main Track},
   doi       = {10.24963/ijcai.2021/113},
   url       = {https://doi.org/10.24963/ijcai.2021/113}
+}
+
+@misc{li2022nimble,
+  title         = {NIMBLE: A Non-rigid Hand Model with Bones and Muscles},
+  author        = {Li, Yuwei and Zhang, Longwen and Qiu, Zesong and Jiang, 
+                   Yingwenqi and Zhang, Yuyao and Li, Nianyi and Ma, Yuexin 
+                   and Xu, Lan and Yu, Jingyi},
+  year          = {2022},
+  eprint        = {2202.04533},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.CV}
 }
 
 ```
