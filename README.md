@@ -1,14 +1,12 @@
 HAND MRI Dataset (PIANO)
 ========
 
-The is the dataset proposed in PIANO: A Parametric Hand Bone Model from Magnetic Resonance Imaging 
+The is the dataset used in **_PIANO: A Parametric Hand Bone Model from Magnetic Resonance Imaging_** and **_NIMBLE: A Non-rigid Hand Model with Bones and Muscles_**.
 
-To learn about PIANO, please visit our website: https://liyuwei.cc/proj/piano
-
-You can find the paper at: https://www.ijcai.org/proceedings/2021/0113.pdf
+To learn more, please visit project website at [PIANO](https://liyuwei.cc/proj/piano) and [NIMBLE](https://liyuwei.cc/proj/nimble).
 
 
-For comments or questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.cn)
+For comments and questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.cn)
 
 ---
 
