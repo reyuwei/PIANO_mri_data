@@ -1,6 +1,8 @@
 HAND MRI Dataset (PIANO)
 ========
 
+![](dataset.png)
+
 The is the dataset used in **_PIANO: A Parametric Hand Bone Model from Magnetic Resonance Imaging_** and **_NIMBLE: A Non-rigid Hand Model with Bones and Muscles_**.
 
 To learn more, please visit project website at [PIANO](https://liyuwei.cc/proj/piano) and [NIMBLE](https://liyuwei.cc/proj/nimble).
