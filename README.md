@@ -21,7 +21,7 @@ For comments and questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.
 1. **Muscle mask volume (From [NIMBLE](https://liyuwei.cc/proj/nimble))**  [[Google Drive]](https://drive.google.com/file/d/1TuU8Co85_ctvj6yjotms-PTKredzl0QF/view?usp=sharing)
 
 
-## Useful code - [mask2mesh.py](code/mask2mesh.py)
+## Useful code - [mask2mesh.py](https://github.com/reyuwei/PIANO_mri_data/blob/master/mask2mesh.py)
 - Generate mesh from volume mask
 ```py
 mri_mask = "00001_bonemuscle.nii"
