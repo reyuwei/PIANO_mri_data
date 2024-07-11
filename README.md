@@ -8,7 +8,7 @@ The is the dataset used in **_PIANO: A Parametric Hand Bone Model from Magnetic 
 To learn more, please visit project website at [PIANO](https://liyuwei.cc/proj/piano) and [NIMBLE](https://liyuwei.cc/proj/nimble).
 
 
-For comments and questions, please email us at: Yuwei Li (liyw@shanghaitech.edu.cn)
+For comments and questions, please email us at: Yuwei Li (liyw@alumni.shanghaitech.edu.cn)
 
 ---
 
